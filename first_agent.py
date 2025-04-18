@@ -67,7 +67,7 @@ Observation: the result of the action. This Observation is unique, complete, and
 
 You must always end your output with the following format:
 
-Thought: I now know the final answer
+Thought: I now know the final answer.
 Final Answer: the final answer to the original input question
 
 Now begin! Reminder to ALWAYS use the exact characters `Final Answer:` when you provide a definitive answer."""
@@ -79,3 +79,5 @@ prompt = f"""<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 What's the weather in London ?
 <|eot_id|><|start_header_id|>assistant<|end_header_id|>
 """
+
+#
